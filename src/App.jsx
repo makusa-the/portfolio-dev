@@ -3,6 +3,7 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import Header from "./components/Header";
 import BackToTop from "./components/BackToTop";
+import CustomCursor from "./components/CustomCursor";
 
 const Hero = lazy(() => import("./components/Hero"));
 const About = lazy(() => import("./components/About"));
@@ -34,6 +35,7 @@ const App = () => {
   const location = useLocation();
   return (
     <div className="App">
+      <CustomCursor />
       <Header />
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>

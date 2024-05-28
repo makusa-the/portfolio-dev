@@ -7,7 +7,7 @@ const About = () => {
     <section id="about" className="py-20 bg-background text-text">
       <div className="container mx-auto flex flex-col items-center">
         <motion.img
-          src="../src/assets/profile.png"
+          src="/assets/profile.png"
           alt="Your Name"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
