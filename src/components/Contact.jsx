@@ -111,7 +111,7 @@ const Contact = () => {
         )}
         <div className="mt-8 flex justify-center space-x-6">
           <a
-            href="https://linkedin.com/in/yourprofile"
+            href="https://linkedin.com/in/innmak"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-700 hover:text-blue-900"
@@ -119,7 +119,7 @@ const Contact = () => {
             <FaLinkedin size={30} />
           </a>
           <a
-            href="https://twitter.com/yourprofile"
+            href="https://x.com/makusa_i"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-500 hover:text-blue-700"
@@ -127,7 +127,7 @@ const Contact = () => {
             <FaTwitter size={30} />
           </a>
           <a
-            href="https://github.com/yourprofile"
+            href="https://github.com/makusa-the"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-800 hover:text-gray-900"
